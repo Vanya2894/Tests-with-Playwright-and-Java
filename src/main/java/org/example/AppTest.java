@@ -17,5 +17,6 @@ public class AppTest {
         Page page = browser.newPage();
         page.navigate("http://ya.ru");
         System.out.println(page.title());
+        browser.close();
     }
 }
