@@ -37,7 +37,7 @@ public class TestExample {
         page.locator("#permanentAddress").click();
         page.locator("#permanentAddress").fill("DFDF");
         page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Submit")).click();
-        System.out.println(page.title());
+        System.out.println("Привет! Твой тест успешно завершен!");
 
         browser.close();
     }
